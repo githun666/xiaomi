@@ -1,0 +1,13 @@
+
+/*=======================================清楚默认样式=======================================*/
+*{margin: 0;padding: 0;}
+h1,h2,h3,h4,h5,h6,b,strong{font-weight: normal;}
+img{vertical-align: top;}
+i,em{font-style: normal;}
+a{text-decoration: none;color:#000;}
+ol li,ul li{list-style: none;}
+input{outline: none;border: 0 none; background: #fff;}
+
+/*=======================================清除浮动=======================================*/
+.clearfix:after{display: block;content: '';clear:both;}
+.clearfix{zoom:1;}
